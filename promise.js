@@ -11,8 +11,8 @@ const promiseOutput = async (input) => {
     })
     
     let dataHasil = theaterAll.filter(item => item === input).length;
-    console.log(dataHasil);
-
+    // console.log(dataHasil);
+    return dataHasil;
     //let dataHasil = "Jumlah Film yang ditonton " + input + " : " + theaterAll.filter(item => item === input).length;
     //console.log(dataHasil);
     
