@@ -10,8 +10,11 @@ const promiseOutput = async (input) => {
       return item.hasil;
     })
     
-    let dataHasil = "Jumlah Film yang ditonton " + input + " : " + theaterAll.filter(item => item === input).length;
+    let dataHasil = theaterAll.filter(item => item === input).length;
     console.log(dataHasil);
+
+    //let dataHasil = "Jumlah Film yang ditonton " + input + " : " + theaterAll.filter(item => item === input).length;
+    //console.log(dataHasil);
     
     //const a = promiseTheaterIXX();
     //const b = promiseTheaterVGC();
